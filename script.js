@@ -48,7 +48,7 @@ setAlarmBtn.addEventListener('click', () => {
   checkState(alarmState);
 })
 
-// check the alarm state
+// check the alarm state:
 function checkState (state){
   if (state == "noset"){
     content.classList.add('disable');
